@@ -1,6 +1,6 @@
-# OpenFin
+# Loan Interface
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 10.0.0.
+An interface to users to apply for loan . Eligible amount is calculated based on Total Income per month, Total expense per month and Existing loan EMI. As per these Informations provided by the user system will give Loan amount and available EMI options for the user
 
 ## Development server
 
