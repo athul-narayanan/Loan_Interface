@@ -1,0 +1,30 @@
+mat-slider {
+    width: 100%;
+    display: block;
+  }
+
+  .mat-slider-horizontal {
+    height: 30px !important;
+  }
+
+  .matSlider{
+      height:125px;
+  }
+
+  .calculator-header{
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #eee;
+  }
+
+  ::ng-deep .mat-select-value ,.selectedValues,input{
+    font-size: 20px;
+    font-weight: 600;
+  }
+
+  .rangeText{
+    color: #a6a6a6;
+    font-size: 12px;
+  }

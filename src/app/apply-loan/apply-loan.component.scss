@@ -1,0 +1,28 @@
+.headerStyle{
+    margin:auto;
+}
+
+.attached{
+    right: 8%;
+}
+
+.topAligned{
+    z-index : 2
+}
+
+.apply-loan-card{
+    display: flex;
+    align-items: center;
+}
+
+.avail-loan{
+    background-image: url('./../../assets/images/wave.jpg');
+    width: 100%;
+    height : 100%;
+    background-repeat: no-repeat;
+}
+
+.displayDots{
+    margin-top: -10%;
+    margin-left: 7%;
+}

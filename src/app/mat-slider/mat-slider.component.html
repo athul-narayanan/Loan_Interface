@@ -1,0 +1,8 @@
+<label for="monthlyIncome">{{label}}</label>
+<div class="selectedValues">{{selectedValue}}</div>
+<mat-slider  (input)="onInputChange($event)" [min]="range.min" [max]="range.max">
+</mat-slider>
+<div>
+    <span class="floatLeft rangeText">{{range.min}}</span>
+    <span class="floatRight rangeText">{{range.max}}</span>
+</div>

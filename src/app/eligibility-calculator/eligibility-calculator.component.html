@@ -1,0 +1,34 @@
+<div class="card eligibility-card">
+    <form #f="ngForm">
+        <header class="col-12 calculator-header">
+            <h6>Eligibility Calculator</h6>
+        </header>
+        <div class="eligibility container">
+            <div class="col-11 matSlider">
+                <price-slider [label]="'Monthly Income'" [range]="monthlyIncomeRange"></price-slider>
+            </div>
+            <div class="col-11 matSlider">
+                <price-slider [label]="'Monthly Expense'" [range]="monthlyExpenseRange"></price-slider>
+            </div>
+            <div class="col-11">
+                <label for="tenureDuration">Repayment Tenure</label>
+                <mat-form-field  class="matSelectDispay" appearance="fill" id="tenureDuration">
+                    <mat-label></mat-label>
+                    <mat-select disableRipple [(value)]="selectedTenure">
+                      <mat-option *ngFor="let tenure of tenureList" [value]="tenure.value" >{{tenure.text}}</mat-option>
+                    </mat-select>
+                </mat-form-field>
+            </div>
+            <div class="col-11 mediumHeight">
+                <label>Do you have any existing loans?</label>
+                <mat-slide-toggle  id="existingLoan" class="floatRight"  [(ngModel)]="isPreviousLoan" name="enableExistingLoan"></mat-slide-toggle>
+            </div>
+            <div class="col-11" *ngIf="isPreviousLoan">
+                <label for="existingEmi">EMI of existing loan (optional)</label>
+                <mat-form-field  class="example-full-width">
+                    <input matInput  id="existingEmi" >
+                </mat-form-field>
+            </div>
+        </div>
+    </form>
+</div>

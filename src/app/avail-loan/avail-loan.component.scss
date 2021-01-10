@@ -1,0 +1,35 @@
+.mainHeader{
+    text-align: center;
+}
+
+.availLoanContents{
+    margin-top : 5%;
+    width : 100% !important;
+}
+
+.displayDots{
+    display: flex;
+    justify-content: flex-end;
+}
+
+
+
+.displayAvailLoanImage{
+    background-image : url('./../../assets/images/avail.jpg');
+    height: 360px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    left: -10%;
+    position: relative;
+}
+
+
+[class*="col-"] {
+    padding-right: 0px !important;
+    padding-left: 0px !important;
+}
+
+.row{
+    margin-right:0px!important;
+    margin-left : 0px !important;
+}

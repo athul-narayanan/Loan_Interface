@@ -1,0 +1,41 @@
+.proceedLoan{
+    width: 100%;
+    background-color: #663399;
+    margin-top: 22%;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    align-items: center;
+    height: 330px;
+    border-radius: 5%;
+    opacity : 1;
+}
+
+
+.loan-detail-item {
+    margin-top : 10%;
+    color: white;
+    margin-bottom : 10%
+}
+
+.loan-detail-item > div{
+    font-weight: 600;
+    font-size: 1.2rem;
+    text-align : center;
+}
+
+.get-money-button{
+    height: 50px;
+    width: 150px;
+    border-radius: 35%;
+    border-color: white;
+    background: white;
+    color: purple;
+    font-weight: 600;
+}
+
+
+
+
+

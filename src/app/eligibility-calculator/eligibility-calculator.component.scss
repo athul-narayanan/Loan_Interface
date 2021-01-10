@@ -1,0 +1,58 @@
+mat-slider,mat-form-field {
+    width: 100%;
+    display: block;
+  }
+
+  .mat-slider-horizontal {
+    height: 30px !important;
+  }
+
+  .matSlider{
+      height:125px;
+  }
+
+  .calculator-header{
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #eee;
+  }
+  
+  .matSelectDispay{
+    display: block;
+  }
+
+  ::ng-deep .mat-form-field-appearance-fill .mat-form-field-flex{
+    background : white !important;
+  }
+
+  .eligibility-card{
+    margin-top : 10%;
+  }
+
+  .eligibility {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center
+  }
+
+  ::ng-deep.mat-slide-toggle-thumb{
+    background: white !important;
+    margin-top: 9% !important;
+    margin-left: 0% !important;
+  }
+
+  ::ng-deep.mat-slide-toggle-bar, .mat-slide-toggle-thumb{
+    background: purple !important;
+    height: 18px !important;
+  }
+  
+  .mediumHeight{
+    height : 90px;
+  }
+
+  input{
+    font-size: 20px;
+    font-weight: 600;
+  }
